@@ -1,4 +1,7 @@
 {
+    "name" : "rcalicdan/ramsey-collection-typephp-extension",
+    "description": "Make Ramsey Collection enforce Reiefied generics",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
