@@ -23,7 +23,7 @@ class RamseyCollectionExtension implements ExtensionInterface
                 'vendor/ramsey/collection/src/**',
             ],
             'stubs' => [
-                $stubPath !== '' ? $stubPath : 'stubs/ramsey-collection.stub.php',
+                $stubPath !== '' ? $stubPath : 'stubs/ramsey-collection.stub',
             ],
         ];
     }
