@@ -7,10 +7,8 @@
             "Rcalicdan\\RamseyExtension\\": "src/"
         }
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev",
     "require": {
-        "typephp/typephp": "dev-main",
+        "typephp/typephp": "*",
         "ramsey/collection": "^2.1"
     },
     "require-dev": {
