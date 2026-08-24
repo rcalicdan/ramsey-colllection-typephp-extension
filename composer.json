@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Rcalicdan\\RamseyExtension\\": "src/"
         }
     },
     "prefer-stable": true,

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Extension;
+namespace Rcalicdan\RamseyExtension\Extension;
 
 use TypePHP\Extension\ExtensionInterface;
 
