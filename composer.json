@@ -10,7 +10,6 @@
     "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
-
         "typephp/typephp": "dev-main",
         "ramsey/collection": "^2.1"
     },
