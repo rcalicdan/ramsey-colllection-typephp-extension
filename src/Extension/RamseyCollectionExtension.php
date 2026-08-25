@@ -16,14 +16,9 @@ class RamseyCollectionExtension implements ExtensionInterface
      */
     public function getConfig(): array
     {
-        $stubPath = str_replace('\\', '/', realpath(__DIR__ . '/../../stubs/ramsey-collection.stub.php') ?: '');
-
         return [
             'include' => [
                 'vendor/ramsey/collection/src/**',
-            ],
-            'stubs' => [
-                $stubPath !== '' ? $stubPath : 'stubs/ramsey-collection.stub',
             ],
         ];
     }
