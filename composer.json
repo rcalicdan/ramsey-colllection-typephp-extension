@@ -1,6 +1,6 @@
 {
-    "name" : "rcalicdan/ramsey-collection-typephp-extension",
-    "description": "Make Ramsey Collection enforce Reiefied generics",
+    "name": "rcalicdan/ramsey-collection-typephp-extension",
+    "description": "Make Ramsey Collection enforce Reified generics",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "typephp/typephp": "*",
+        "typephp/typephp": "^0.6",
         "ramsey/collection": "^2.1"
     },
     "require-dev": {

@@ -1,8 +1,7 @@
 <?php
 
 declare(strict_types=1);
-
-use App\Extension\RamseyCollectionExtension;
+use Rcalicdan\RamseyExtension\Extension\RamseyCollectionExtension;
 
 return [
     /*
