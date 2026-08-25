@@ -6,19 +6,21 @@ namespace Rcalicdan\RamseyExtension\Extension;
 
 use TypePHP\Extension\ExtensionInterface;
 
-class RamseyCollectionExtension implements ExtensionInterface
+final class RamseyCollectionExtension implements ExtensionInterface
 {
     /**
      * Returns configuration overrides provided by this extension.
-     * Whitelists the vendor source files and registers the covariant stub definitions.
+     * Selectively whitelists only the generic collection and map classes,
+     * skipping non-generic exceptions, traits, and enums.
      *
-     * @return array<string, mixed>
+     * @return array{include?: list<string>, stubs?: list<string>}
      */
     public function getConfig(): array
     {
         return [
             'include' => [
-                'vendor/ramsey/collection/src/**',
+                'vendor/ramsey/collection/src/*.php',
+                'vendor/ramsey/collection/src/Map/*.php',
             ],
         ];
     }
